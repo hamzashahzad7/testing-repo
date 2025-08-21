@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function Navigation() {
     return (
-        <nav className="px-5 md:px-10 lg:px-20 pt-4">
+        <nav className="px-5 md:px-10 lg:px-[6rem] pt-[1.7rem]">
             {/* Inner Black Container */}
-            <div className="w-full bg-black rounded-lg md:rounded-xl flex justify-between items-center px-4 md:px-10 lg:px-28 py-4">
+            <div className="w-full bg-black rounded-lg md:rounded-2xl flex justify-between items-center px-4 md:px-10 lg:px-28 py-4">
                 {/* Logo */}
                 <Image src="/assets/logo/logo.png" alt="Logo" width={100} height={100} />
 

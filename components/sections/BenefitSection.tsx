@@ -8,7 +8,7 @@ export default function BenefitSection() {
 
             {/* Main Headings */}
             <div className="flex flex-col md:flex-row gap-2 lg:gap-0 lg:justify-between lg:items-center w-full mt-8">
-                <h2 className="lg:w-[40%] font-bold text-4xl lg:text-5xl leading-tight">Say goodbye to Wallet Addresses.</h2>
+                <h2 className="w-full lg:w-[40%] font-bold text-[32px] lg:text-5xl leading-tight">Say goodbye to Wallet Addresses.</h2>
                 <p className="text-xs md:text-sm lg:w-1/4">Just enter the handle, select your token, and confirm. No copy-paste. No errors. No friction.</p>
             </div>
 
@@ -38,7 +38,7 @@ export default function BenefitSection() {
                     {/* Card 2 */}
                     <div className="bg-[#151515] rounded-3xl pt-10 w-full h-full">
                         <h2 className="w-full px-9 lg:px-11 text-[30px] lg:text-4xl text-white">Secure Transfers</h2>
-                        <div className="w-full h-full grid place-items-center mt-3">
+                        <div className="w-full h-full grid place-items-center mt-1 lg:mt-3">
                             <img src="/assets/section-images/card-2.png" className="w-full h-full object-contain" alt="" />
                         </div>
                     </div>
@@ -89,12 +89,17 @@ export default function BenefitSection() {
                     </div>
 
                     {/* Card 5 */}
-                    <div className="bg-[#151515] rounded-3xl pt-10  w-full h-full overflow-hidden ">
-                        <h2 className="w-full px-9 lg:px-11 text-[30px] lg:text-4xl text-white">Unique Identity</h2>
+                    <div className="bg-[#151515] rounded-3xl pt-6  w-full h-full overflow-hidden ">
+                        {/* Right Vector Icon */}
+                        <div className="flex justify-end items-end pr-5 ">
+                            <img src="/assets/icons/Vector.png" alt="" />
+                        </div>
+
+                        <h2 className="w-full text-center text-[30px] lg:text-4xl text-white -mt-2">Unique Identity</h2>
                         {/* background with img container */}
                         <div className="relative grid place-items-center">
-                            <div className=" h-full absolute rounded-lg bg-[#dcdcdcce] z-0 w-[87%] left-11 lg:left-10 top-2.5 lg:top-3.5" />
-                            <div className="w-full h-full grid place-items-center lg:mt-3 z-10 relative">
+                            <div className=" h-full absolute rounded-lg bg-[#dcdcdcce] z-0 w-[87%] left-8 lg:left-10 top-3 lg:top-6" />
+                            <div className="w-full h-full grid place-items-center lg:mt-3 z-10 relative top-1">
                                 <img src="/assets/section-images/1 1.png" className="w-full h-full object-contain" alt="" />
                             </div>
                         </div>
