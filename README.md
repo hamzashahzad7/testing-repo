@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Landing Page Test Task
 
-## Getting Started
+This repository contains the implementation of a landing page based on the provided Figma design. The project is built using **Next.js (App Router)** with **TypeScript** and **Tailwind CSS**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Setup & Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hamzashahzad7/testing-repo.git
+   cd testing-repo
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser at [http://localhost:3000](http://localhost:3000).
+
+---
+
+## 🛠️ Technology Choices
+
+- **Next.js (App Router)** – for modern React-based development with server and client components.
+- **TypeScript** – for type safety and maintainability.
+- **Tailwind CSS** – for utility-first styling and rapid UI development.
+- **Lucide Icons** – for Icons.
+- **CLSX+Tailwind Merge** – for dynamically written styles.
+
+---
+
+## 🎨 Figma Design Interpretation
+
+- The Figma file included both **desktop** and **mobile** views.
+- Where design specs were not explicitly clear (e.g., spacing between sections), I made proportional adjustments to maintain visual balance.
+- Gradient backgrounds were adapted to scale dynamically with the section height.
+- Typography and spacing follow the closest Tailwind equivalents to Figma tokens.
+
+---
+
+## 🤖 AI Assistance
+
+- AI (ChatGPT GPT-4) was used for **CSS/Tailwind fixes** related to scaling a background gradient with dynamic section height.
+- Details are documented in [AI_USAGE.md](./AI_USAGE.md).
+
+---
+
+## 📱 Responsive Breakpoints
+
+Based on Figma mobile and desktop views, the following breakpoints were used:
+
+- **Mobile:** `sm` (≤ 640px)
+- **Tablet:** `md` (641px – 1024px) [interpolated for smoother scaling]
+- **Desktop:** `lg` and above (≥ 1025px)
+
+---
+
+## 📌 Assumptions
+
+- Figma did not provide hover/active states for all buttons..
+- Exact line-heights were not specified in some areas; Tailwind defaults were applied.
+- Section padding values were normalized for consistency across breakpoints.
+- Figma did not include tablet breakpoint screens so I managed myself for its responsiveness.
+
+---
+
+## ⚠️ Known Issues / Limitations
+
+- No animations were explicitly defined in the Figma design. Subtle fade-in transitions were avoided to keep the design true to spec.
+- Tested primarily on Chrome and Firefox; Safari testing was limited.
+- Images from Figma were not optimized for production; in a real project, For time shortage I used img tags. ALso I personally dont use next/image for optimization because its has glitches of width and height requirements. For optimization for production grade app I will ask design to optimize images Also we can use defer loading for images.
+
+
+---
+
+## 📂 Project Structure
+
+```
+.
+├── app
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+├── lib/helpers.ts
+├── public/
+├── styles/
+├── README.md
+└── AI_USAGE.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔗 Repository
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[GitHub Repo](https://github.com/hamzashahzad7/testing-repo)
