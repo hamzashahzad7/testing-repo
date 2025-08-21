@@ -36,7 +36,7 @@ export default function HeroMockup() {
             </div>
 
             {/* Right container */}
-            <div className="absolute left-[54%] lg:left-[62%] top-[74%] lg:top-[59%] bg-black/20 lg:backdrop-blur-lg rounded-full px-2 lg:px-4 py-1.5 lg:py-3 flex items-center gap-3 lg:gap-6 z-20 text-[10px] lg:text-[18px]">
+            <div className="absolute left-[51%] lg:left-[62%] top-[68%] lg:top-[59%] bg-black/20 lg:backdrop-blur-lg rounded-full px-2 lg:px-4 py-1.5 lg:py-3 flex items-center gap-3 lg:gap-6 z-20 text-[10px] lg:text-[18px]">
                 <img src="/assets/icons/Sparkle.png" alt="Apollo" className="w-7 h-7 lg:w-10 lg:h-10" />
                 <div className="text-left lg:-space-y-1">
                     <h2 className="text-white">Romulus</h2>

@@ -8,3 +8,8 @@ body {
 .hero-gradient {
   background: linear-gradient(180deg, #51FC8B 0%, rgba(81, 252, 139, 0) 100%);
 }
+
+/* Benefits Grid Card#5 shadow */
+.custom-card-shadow {
+  box-shadow: 1px 4px 25.7px -3px rgba(0, 0, 0, 0.7);
+}

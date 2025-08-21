@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section className="w-full flex m-auto mt-20 z-10 overflow-hidden pb-10 lg:pb-0">
             <div className="w-full grid place-items-center space-y-4 text-center">
-                <h2 className="text-4xl leading-[.9]  lg:text-5xl font-bold w-2/3 lg:w-[45%]">
+                <h2 className="text-4xl leading-[.9]  lg:text-5xl font-bold w-[75%] lg:w-[45%]">
                     AI receipts. Simple crypto. Smart control.
                 </h2>
 
@@ -23,7 +23,7 @@ export default function Hero() {
                 <HeroMockup />
 
                 {/* Mobile Containers */}
-                <p className="text-[12px] leading-tight font-semibold block md:hidden mt-2">
+                <p className="text-[12px] leading-tight font-semibold block md:hidden mt-0">
                     Klip is your all-in-one decentralized wallet <br />
                     Designed for security, flexibility, and full ownership.
                 </p>

@@ -21,7 +21,7 @@ export default function BenefitSection() {
                         <img src="/assets/icons/Vector.png" alt="" />
                     </div>
                     {/* Left Icon with heading */}
-                    <div className="space-y-2 !pl-5  -mt-5">
+                    <div className="space-y-2 pl-3 lg:!pl-5  -mt-5">
                         <img src="/assets/icons/Icon.png" alt="" />
                         <h2 className="w-1/3 text-4xl text-white">Token Support</h2>
                     </div>
@@ -37,14 +37,14 @@ export default function BenefitSection() {
                 <div className="col-span-1 md:col-span-2 w-full h-full grid grid-cols-1 md:grid-cols-2 gap-5">
                     {/* Card 2 */}
                     <div className="bg-[#151515] rounded-3xl pt-10 w-full h-full">
-                        <h2 className="px-11 text-4xl text-white">Secure Transfers</h2>
+                        <h2 className="w-full px-9 lg:px-11 text-[30px] lg:text-4xl text-white">Secure Transfers</h2>
                         <div className="w-full h-full grid place-items-center mt-3">
                             <img src="/assets/section-images/card-2.png" className="w-full h-full object-contain" alt="" />
                         </div>
                     </div>
 
                     {/* Card 3 */}
-                    <div className="bg-[#151515] rounded-3xl w-full h-full pl-10 p-6 overflow-hidden">
+                    <div className="bg-[#151515] rounded-3xl w-full h-full pl-7 lg:pl-10 p-6 pb-12 lg:pb-6 overflow-hidden">
                         {/* Right Vector Icon */}
                         <div className="flex justify-end items-end">
                             <img src="/assets/icons/Vector.png" alt="" />
@@ -53,14 +53,14 @@ export default function BenefitSection() {
                         {/* Graphs And speed meter Container */}
                         <div className="w-full h-full relative">
                             {/* Graph card */}
-                            <div className="w-[90%] mt-1 px-4 py-2 rounded-2xl backdrop-blur-[25px] bg-[#c4c4c4]/20 border border-solid border-[#c4c4c4] overflow-hidden"> 
+                            <div className="w-[90%] mt-1 px-4 py-2 rounded-2xl backdrop-blur-[25px] bg-[#c4c4c4]/20 border border-solid border-[#c4c4c4] overflow-hidden">
                                 <h2 className="text-[#12ed39] font-[400] text-2xl">Romulus</h2>
                                 <h2 className="text-white font-[400] text-2xl">$3271.20</h2>
                                 <img src="/assets/section-images/chart.png" className="w-full object-cover object-top mt-6" alt="" />
                             </div>
 
                             {/* meter card */}
-                            <div className="absolute -right-1 bottom-12 w-[60%] px-4 py-2 rounded-2xl backdrop-blur-[25px] bg-[#c4c4c4]/20 border border-solid border-[#c4c4c4] overflow-hidden"> 
+                            <div className="absolute right-0 lg:-right-1 bottom-5 lg:bottom-12 w-[65%] lg:w-[60%] px-4 py-2 rounded-2xl backdrop-blur-[25px] bg-[#c4c4c4]/20 border border-solid border-[#c4c4c4] overflow-hidden">
                                 <h2 className="text-[#12ed39] font-[400] text-2xl">Performance</h2>
                                 <img src="/assets/section-images/meter.png" className="w-full object-cover mt-6" alt="" />
                             </div>
@@ -89,10 +89,14 @@ export default function BenefitSection() {
                     </div>
 
                     {/* Card 5 */}
-                    <div className="bg-[#151515] rounded-3xl pt-10  w-full h-full overflow-hidden">
-                        <h2 className="px-11 text-4xl text-white">Unique Identity</h2>
-                        <div className="w-full h-full grid place-items-center mt-3">
-                            <img src="/assets/section-images/1 1.png" className="w-full h-full object-contain" alt="" />
+                    <div className="bg-[#151515] rounded-3xl pt-10  w-full h-full overflow-hidden ">
+                        <h2 className="w-full px-9 lg:px-11 text-[30px] lg:text-4xl text-white">Unique Identity</h2>
+                        {/* background with img container */}
+                        <div className="relative grid place-items-center">
+                            <div className=" h-full absolute rounded-lg bg-[#dcdcdcce] z-0 w-[87%] left-11 lg:left-10 top-2.5 lg:top-3.5" />
+                            <div className="w-full h-full grid place-items-center lg:mt-3 z-10 relative">
+                                <img src="/assets/section-images/1 1.png" className="w-full h-full object-contain" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
