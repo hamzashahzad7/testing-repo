@@ -1,5 +1,5 @@
 export default function Partnership() {
-    const imgs = [
+    const imgs:string[] = [
         "/assets/icons/Logo01.png",
         "/assets/icons/Logo02.png",
         "/assets/icons/Logo03.png",
@@ -13,8 +13,8 @@ export default function Partnership() {
 
             {/* Logos Container */}
             <div className="flex items-center justify-between gap-14 md:gap-5 lg:gap-0">
-                {imgs.map((img, i) => (
-                    <img src={img} alt="" key={i} />
+                {imgs.map((imgLink, i) => (
+                    <img src={imgLink} alt="" key={i} />
                 ))}
             </div>
         </section>
